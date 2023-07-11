@@ -1,6 +1,6 @@
 module.exports = {
   url: "https://unspent.space",
-  pathPrefix: "",
+  pathPrefix: "/unspent.space",
   SITE_TITLE: "unspent.space",
   SITE_SUBTITLE: "Tools for bitcoin spaces",
   SITE_DESCRIPTION:
