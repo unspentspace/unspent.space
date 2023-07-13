@@ -12,6 +12,7 @@ module.exports = {
     category: siteConfig.category,
   },
   plugins: [
+    "gatsby-plugin-cname",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-postcss",
