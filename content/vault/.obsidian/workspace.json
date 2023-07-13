@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SatoshiPlace.md",
+                "file": "BlogPost1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SatoshiPlace.md",
+                "file": "BlogPost1.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,9 +127,10 @@
   "lastOpenFiles": [
     "FirstPodcastEpisode.md",
     "SatoshiPlace.md",
+    "Welcome.md",
+    "BlogPost1.md",
     "media/design-okr-update-2021q3.png",
     "Untitled.canvas",
-    "Welcome.md",
     "Premature Abstraction.md",
     "OKR.md",
     "Markdown.md",
