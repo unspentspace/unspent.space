@@ -17,7 +17,7 @@ export default function Footer() {
               © {new Date().getFullYear()} {COPYRIGHT}
             </p>
           </div>
-          <ul className="list-style-none flex gap-6 justify-between md:flex-row flex-col">
+          <ul className="list-style-none grid grid-cols-2 gap-8 md:justify-between md:flex md:flex-row flex-col">
             {FOOTER.map((item) => (
               <li key={item.label}>
                 <GatsbyLink
