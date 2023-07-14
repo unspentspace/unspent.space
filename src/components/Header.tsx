@@ -32,7 +32,7 @@ export default function Header() {
           <Link
                 to="https://discord.gg/n6AFg4H3Ve"
                 target="_blank"
-                className="px-2 sm:px-4 items-center flex py-2 bg-dimgrey rounded-full text-white hover:bg-grey transition-all ease-in-out duration-300 hover:text-whitegrey md:hidden"
+                className="px-2 sm:px-4 text-sm sm:text-lg items-center flex py-2 bg-dimgrey rounded-full text-white hover:bg-grey transition-all ease-in-out duration-300 hover:text-whitegrey md:hidden"
               >
                 <div className="pr-2">discord chat</div>
                 <MdOpenInNew />
