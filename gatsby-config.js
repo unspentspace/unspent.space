@@ -140,8 +140,8 @@ module.exports = {
         fonts: {
           google: [
             {
-              family: "Roboto Serif",
-              variants: ["400", "500", "900"],
+              family: "Ubuntu",
+              variants: ["400", "500", "600", "700"],
               fontDisplay: "swap",
             },
             {
