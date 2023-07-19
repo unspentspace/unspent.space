@@ -18,6 +18,7 @@ export const postFragment = graphql`
       date
       tags
       title
+      author
       socialImage {
         publicURL
         childImageSharp {
@@ -46,6 +47,7 @@ export const postFragment = graphql`
     frontmatter {
       title
       date
+      author
       category
       tags
       featured
