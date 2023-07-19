@@ -1,6 +1,7 @@
 ---
 date: 2023-07-10
 title: Satoshi's Place, UK
+author: crispy
 tags:
   - podcast
   - britain

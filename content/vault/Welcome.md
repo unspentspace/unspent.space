@@ -1,6 +1,7 @@
 ---
 date: 2023-07-02
 title: Welcome to unspent.space
+author: crispy
 tags:
   - welcome
   - newbie
