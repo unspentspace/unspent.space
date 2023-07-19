@@ -26,9 +26,11 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.15",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "dayjs": "^1.10.7",
+    "eslint-config-prettier": "^8.8.0",
     "gatsby": "^4.7.1",
     "gatsby-plugin-cname": "^1.0.0",
     "gatsby-plugin-google-analytics": "^4.7.0",
@@ -58,7 +60,16 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.2",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
     "autoprefixer": "^10.4.2",
-    "tailwindcss": "^3.0.22"
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^36.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "3.0.0",
+    "tailwindcss": "^3.0.22",
+    "typescript": "*"
   }
 }

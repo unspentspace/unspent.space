@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="border-t color-border-slate-200 flex flex-col-reverse md:flex-row gap-6 py-6 items-center">
           <div className="flex gap-4 items-center place-content-center">
             <GatsbyLink to="https://unspent.space">
-              <img src={Logo} alt="Logo" className="w-10 hover:opacity-9" />
+              <Logo />
             </GatsbyLink>
             <p>
               © {new Date().getFullYear()} {COPYRIGHT}

@@ -5,10 +5,11 @@ module.exports = {
   SITE_SUBTITLE: "Tools for bitcoin spaces",
   SITE_DESCRIPTION:
     "Supporting permanent bitcoin spaces through community, software and research",
-  KEYWORDS: "Bitcoin, Physical Space, Meetups, Free And Open Source Software, FOSS, Github, Community ",
-  HERO_TITLE:
-    "unspent.space",
-  HERO_SUBTITLE: "Build your permanent bitcoin space with community and resources.",
+  KEYWORDS:
+    "Bitcoin, Physical Space, Meetups, Free And Open Source Software, FOSS, Github, Community ",
+  HERO_TITLE: "unspent.space",
+  HERO_SUBTITLE:
+    "Build your permanent bitcoin space with community and resources.",
   COPYRIGHT: "unspent.space",
   LOCALE: "en",
   POST_PER_PAGE: 6,
@@ -23,7 +24,7 @@ module.exports = {
     },
     {
       label: "contribute",
-      path: "/contribute/"
+      path: "/contribute/",
     },
     {
       label: "topics",
@@ -45,7 +46,7 @@ module.exports = {
     },
     {
       label: "contribute",
-      path: "/contribute/"
+      path: "/contribute/",
     },
     {
       label: "topics",

@@ -28,7 +28,10 @@ const PostTemplate = ({ data }) => {
         <ul className="flex flex-row gap-4 mb-4">
           {tags &&
             tags.map((tag) => (
-              <li key={tag} className="px-4 py-1 bg-sunglow text-richblack rounded-full">
+              <li
+                key={tag}
+                className="px-4 py-1 bg-sunglow text-richblack rounded-full"
+              >
                 <Link to={`/tag/${kebabCase(tag)}`}>{tag}</Link>
               </li>
             ))}
