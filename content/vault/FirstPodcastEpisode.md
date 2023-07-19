@@ -1,6 +1,7 @@
 ---
 date: 2023-07-06
 title: First podcast episode!
+author: crispy
 tags:
   - podcast
   - melbourne
