@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9b4d665a714f547b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "What is an unspent space?!.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MultiSig Magic Trust Machine.md",
+                "file": "What is an unspent space?!.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -126,6 +139,9 @@
   },
   "active": "0780a079bcde2f58",
   "lastOpenFiles": [
+    "media/empty-room6.jpg",
+    "media",
+    "What is an unspent space?!.md",
     "FirstPodcastEpisode.md",
     "MultiSig Magic Trust Machine.md",
     "Untitled.canvas",

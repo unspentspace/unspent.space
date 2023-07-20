@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 export default function ListNote({ edges }) {
-  console.log('edges',edges)
+  console.log("edges", edges);
   return (
     <>
       {edges.map((edge) => (

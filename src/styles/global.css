@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  @apply tracking-tighter bg-gradient-to-tr from-darkgrey to-richblack text-whitegrey;
+  @apply font-mono tracking-tighter bg-gradient-to-tr from-darkgrey to-richblack text-whitegrey;
 }
 
 h1 {

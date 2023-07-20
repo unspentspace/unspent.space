@@ -60,7 +60,7 @@ const onCreateNode = ({ node, actions, getNode }) => {
 
     if (node.frontmatter.date) {
       const processedFrontmatterDate = dayjs(node.frontmatter.date).format(
-        dateFormat
+        dateFormat,
       );
       createNodeField({
         node,
@@ -77,7 +77,7 @@ const onCreateNode = ({ node, actions, getNode }) => {
 
     if (node.frontmatter.tags) {
       const tagSlugs = node.frontmatter.tags.map(
-        (tag) => `/tag/${kebabCase(tag)}/`
+        (tag) => `/tag/${kebabCase(tag)}/`,
       );
       createNodeField({ node, name: "tagSlugs", value: tagSlugs });
     }
@@ -103,7 +103,7 @@ const onCreateNode = ({ node, actions, getNode }) => {
     } else if (!stages.includes(node.frontmatter.stage)) {
       // Warning if frontmatter stage not match with defined list, apply default stage
       console.warn(
-        `Stage unmatch for ${node.fields.title}, please edit the respective files soonm, applied default stage`
+        `Stage unmatch for ${node.fields.title}, please edit the respective files soonm, applied default stage`,
       );
       createNodeField({
         node,

@@ -2,7 +2,7 @@ import React from "react";
 import Container from "@/components/Container";
 import GatsbyLink from "@/components/GatsbyLink";
 import { FOOTER, COPYRIGHT } from "../../config";
-import Logo from "../images/unspentspace-logo.svg";
+import Logo from "../images/svg/unspentspace-logo.svg";
 
 export default function Footer() {
   return (
@@ -11,13 +11,13 @@ export default function Footer() {
         <div className="border-t color-border-slate-200 flex flex-col-reverse md:flex-row gap-6 py-6 items-center">
           <div className="flex gap-4 items-center place-content-center">
             <GatsbyLink to="https://unspent.space">
-              <img src={Logo} alt="Logo" className="w-10 hover:opacity-9" />
+              <Logo className="w-10"/>
             </GatsbyLink>
             <p>
               © {new Date().getFullYear()} {COPYRIGHT}
             </p>
           </div>
-          <ul className="list-style-none flex gap-6 justify-between md:flex-row flex-col">
+          <ul className="list-style-none grid grid-cols-2 gap-8 md:justify-between md:flex md:flex-row flex-col">
             {FOOTER.map((item) => (
               <li key={item.label}>
                 <GatsbyLink

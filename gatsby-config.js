@@ -140,8 +140,8 @@ module.exports = {
         fonts: {
           google: [
             {
-              family: "Roboto Serif",
-              variants: ["400", "500", "900"],
+              family: "Ubuntu",
+              variants: ["400", "500", "600", "700"],
               fontDisplay: "swap",
             },
             {
@@ -155,5 +155,13 @@ module.exports = {
         usePreload: true,
       },
     },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /svg/
+        }
+      }
+    }
   ],
 };

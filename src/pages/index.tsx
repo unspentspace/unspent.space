@@ -20,8 +20,11 @@ const IndexPage = ({ data, pageContext }) => {
         {/* <span className="px-3 py-1 text-sunglow text-xs font-semibold uppercase font-mono tracking-wide leading-none border-sunglow rounded-medium border-solid">
           In Beta
         </span> */}
-        <h1 className=" mt-4 font-medium text-5xl md:text-8xl text-yellow leading-normal md:leading-snug transition-all ease-in-out">
+        <h1 className=" mt-4 font-medium text-5xl md:text-8xl text-yellow leading-normal md:leading-snug transition-all ease-in-out hidden sm:block">
           {HERO_TITLE}
+        </h1>
+        <h1 className=" mt-4 font-medium text-6xl md:text-8xl text-yellow leading-normal md:leading-snug transition-all ease-in-out sm:hidden">
+          unspent .space
         </h1>
       </div>
       <h2 className="text-3xl text-whitegrey my-6">{HERO_SUBTITLE}</h2>
