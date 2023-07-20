@@ -35,6 +35,14 @@ const Layout: React.FC = ({
             <meta name="publisher" content={AUTHOR.NAME} />
             <meta name="author" content={AUTHOR.NAME} />
             <meta name="copyright" content={COPYRIGHT} />
+            <meta name="og:title" content={pageTitle}/>
+            <meta name="og:website" content={SITE_TITLE}/>
+            <meta name="og:image" content={'https://res.cloudinary.com/dgpuwpmjk/image/upload/v1684408431/unspent-with-dark-bg_afddek.png'}/>
+            
+          {/* // You should ideally replace the hardcoded URL below with a value you set
+          // in your gatsby-config.js file.  And import all shared site metadata into
+          // this component with the useStaticQuery hook.
+          // content: 'https://res.cloudinary.com/dgpuwpmjk/image/upload/v1684408431/unspent-with-dark-bg_afddek.png', */}
           </Helmet>
           <Header />
           {children}
@@ -49,6 +57,9 @@ const Layout: React.FC = ({
             <meta name="publisher" content={AUTHOR.NAME} />
             <meta name="author" content={AUTHOR.NAME} />
             <meta name="copyright" content={COPYRIGHT} />
+            <meta name="og:title" content={pageTitle}/>
+            <meta name="og:website" content={SITE_TITLE}/>
+            <meta name="og:image" content={'https://res.cloudinary.com/dgpuwpmjk/image/upload/v1684408431/unspent-with-dark-bg_afddek.png'}/>
           </Helmet>
           <Header />
           <Container className="min-h-screen">{children}</Container>
