@@ -45,7 +45,7 @@ export const query = graphql`
         fileAbsolutePath: { regex: "/vault/" }
       }
       limit: 10
-      sort: { order: DESC, fields: fields___date }
+      sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
         node {
