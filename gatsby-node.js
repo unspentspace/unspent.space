@@ -32,7 +32,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Fields {
       title: String!
       slug: String!
-      date: Date!
+      date: String!
       tagSlugs: [String]
       categorySlug: String
       category: String
