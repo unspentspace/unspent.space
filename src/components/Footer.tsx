@@ -1,10 +1,18 @@
 import React from "react";
+import { useBlockTip } from "@/api/useBlockTip";
 import Container from "@/components/Container";
 import GatsbyLink from "@/components/GatsbyLink";
 import { FOOTER, COPYRIGHT } from "../../config";
 import Logo from "../images/svg/unspentspace-logo.svg";
 
 export default function Footer() {
+
+  const { isLoading, data }  = useBlockTip()
+
+  if (isLoading) {
+    console.log('Loading block tip from mempool.space')
+  }
+
   return (
     <footer className="width-full mt-10">
       <Container>
@@ -29,6 +37,12 @@ export default function Footer() {
               </li>
             ))}
           </ul>
+          {isLoading ? 
+          <div>Loading block height...</div>
+          :
+          <p>block height: {data}</p>
+          }
+          
         </div>
       </Container>
     </footer>

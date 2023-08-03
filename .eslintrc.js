@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["standard-with-typescript", "plugin:react/recommended"],
+  extends: ["standard-with-typescript", "plugin:react/recommended","plugin:@tanstack/eslint-plugin-query/recommended"],
   overrides: [
     {
       env: {
@@ -19,10 +19,12 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react"],
+  plugins: ["react","@tanstack/query"],
   rules: {
     "jsx-a11y/href-no-hash": "off",
     "react/destructuring-assignment": "off",
-    "react/no-unescaped-entities": "off"
+    "react/no-unescaped-entities": "off",
+    "@tanstack/query/exhaustive-deps": "error",
+    "@tanstack/query/prefer-query-object-syntax": "error"
   },
 };
