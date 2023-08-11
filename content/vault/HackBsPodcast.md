@@ -1,6 +1,7 @@
 ---
 date: 2023-08-01
 title: hack.bs - Hackerspace in Italy!
+description: Daniela and Alekos describe their journey to founding hackbs, a bitcoin-centric hackerspace in Brescia, Italy.
 author: crispy
 tags:
   - podcast

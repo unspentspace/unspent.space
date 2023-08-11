@@ -1,6 +1,7 @@
 ---
 date: 2023-07-06
 title: First podcast episode!
+description: Welcome to the first episode of the unspent.space podcast.
 author: crispy
 tags:
   - podcast

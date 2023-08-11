@@ -1,6 +1,7 @@
 ---
 date: 2023-07-19
 title: What is an unspent space?!
+description: What is this all about??
 author: Crispy
 tags:
   - bitcoin
