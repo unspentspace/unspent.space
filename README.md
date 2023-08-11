@@ -24,3 +24,7 @@ yarn start
 ```
 
 You should now be able to view the site locally at [localhost:8000](http://localhost:8000/)
+
+## Adding a blog post
+
+- writing in progress
