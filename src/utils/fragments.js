@@ -4,7 +4,7 @@ export const postFragment = graphql`
   fragment post on Mdx {
     id
     body
-    excerpt(pruneLength: 300)
+    excerpt(pruneLength: 150)
     fields {
       date
       title
@@ -18,6 +18,7 @@ export const postFragment = graphql`
       date
       tags
       title
+      description
       author
       socialImage {
         publicURL
@@ -43,9 +44,10 @@ export const postFragment = graphql`
       tagSlugs
       stage
     }
-    excerpt(pruneLength: 300)
+    excerpt(pruneLength: 150)
     frontmatter {
       title
+      description
       date
       author
       category
