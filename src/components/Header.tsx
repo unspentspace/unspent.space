@@ -16,8 +16,7 @@ export default function Header() {
   return (
     <header>
       <Container>
-        <p className="bg-darkgrey rounded-md text-center py-1 mt-5 text-md animate-pulse">block height: {data}</p>
-        <nav className="flex justify-between py-6 md:py-10">
+        <nav className="flex justify-between py-3 md:py-5 mt-5">
           <Link to="/" className="text-whitegrey">
             unspent<span className="text-yellow text-4xl">.</span>space
           </Link>
@@ -47,6 +46,7 @@ export default function Header() {
             <MdOpenInNew />
           </Link>
         </nav>
+        <p className="bg-darkgrey rounded-md text-center py-1 text-md mb-5">block height - <b className="animate-pulse">{data}</b></p>
       </Container>
     </header>
   );
