@@ -26,10 +26,6 @@ module.exports = {
       label: "contribute",
       path: "/contribute/",
     },
-    {
-      label: "topics",
-      path: "/topics/",
-    },
   ],
   FOOTER: [
     {
