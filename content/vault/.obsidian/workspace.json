@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MultiSig Magic Trust Machine.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9b4d665a714f547b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "What is an unspent space?!.md",
+                "file": "Magic MultiSig Trust Machine.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "28df589dd5d11c8c",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "What is an unspent space?!.md",
+                "file": "Magic MultiSig Trust Machine.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,12 +125,13 @@
   },
   "active": "0780a079bcde2f58",
   "lastOpenFiles": [
+    "Magic MultiSig Trust Machine.md",
+    "CPHcss",
+    "Untitled.canvas",
     "media/empty-room6.jpg",
     "media",
     "What is an unspent space?!.md",
     "FirstPodcastEpisode.md",
-    "MultiSig Magic Trust Machine.md",
-    "Untitled.canvas",
     "SatoshiPlace.md",
     "Welcome.md",
     "media/design-okr-update-2021q3.png",

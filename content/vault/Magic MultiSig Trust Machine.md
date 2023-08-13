@@ -1,15 +1,24 @@
 ---
-date: 2023-07-02
-title: Welcome to unspent.space
+date: 2023-07-20
+title: Magic MultiSig Trust Machine
 tags:
   - welcome
   - newbie
   - open source
   - franchise
-
+  - multisig
+  - trust
+  - magic
+  - bond
+  - fund
+  - stacking
+  - story
+  - collaboration
+  - cellular structure
+author: Zea
 ---
 
-# MultiSig Magic Trust Machine
+# Magic MultiSig Trust Machine
 
 
 ## My Story
@@ -80,7 +89,7 @@ It would be great if each cohesive niche would have a MultiSig, simply set up wi
 
 ## The Kicker
 
-I believe collaborative MultiSigs are a new magic human layer on top of our magical bitcoin money. It combines psychology, modern organisation theory and sound money to create something we haven't seen before. I think MultiSig Magic Trust Machines will be a core part of the new economy, the bitcoin economy. 
+I believe collaborative MultiSigs are a new magic human layer on top of our magical bitcoin money. It combines psychology, modern organisation theory and sound money to create something we haven't seen before. I think Magic MultiSig Trust Machines will be a core part of the new economy, the bitcoin economy. 
 
 For me it is the unspent bitcoin which can make unspent.space's strong all around the world... You can start another story like this.
 
