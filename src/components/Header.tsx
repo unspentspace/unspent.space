@@ -1,13 +1,22 @@
 import React from "react";
+import { useBlockTip } from "@/api/useBlockTip";
 import Link from "@/components/GatsbyLink";
 import Container from "@/components/Container";
 import { MENU } from "../../config";
 import { MdOpenInNew } from "react-icons/md";
 
 export default function Header() {
+
+  const { isLoading, data }  = useBlockTip()
+
+  if (isLoading) {
+    console.log('Loading block tip from mempool.space')
+  }
+
   return (
     <header>
       <Container>
+        <p className="bg-darkgrey rounded-md text-center py-1 mt-5 text-md animate-pulse">block height: {data}</p>
         <nav className="flex justify-between py-6 md:py-10">
           <Link to="/" className="text-whitegrey">
             unspent<span className="text-yellow text-4xl">.</span>space
