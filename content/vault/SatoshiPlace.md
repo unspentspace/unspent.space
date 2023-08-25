@@ -1,6 +1,7 @@
 ---
 date: 2023-07-10
 title: Satoshi's Place, UK
+description: Crispy chats with Adam, the owner of Satoshi's Place, a bitcoin hub located in Bury, UK.
 author: crispy
 tags:
   - podcast

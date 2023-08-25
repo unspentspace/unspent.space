@@ -1,6 +1,7 @@
 ---
 date: 2023-07-02
 title: Welcome to unspent.space
+description: Welcome to the unspent.space site. Whether you're trying to start your own space or joining others, this community will help you join the dots.
 author: crispy
 tags:
   - welcome

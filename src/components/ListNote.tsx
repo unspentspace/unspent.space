@@ -14,7 +14,7 @@ export default function ListNote({ edges }) {
             <h2 className="underline my-2">{edge.node.fields.title}</h2>
           </Link>
           <p className="mb-2 text-lightgrey">
-            {edge.node.excerpt || edge.node.frontmatter.description}
+            {edge.node.frontmatter.description || edge.node.excerpt}
           </p>
           {/* <small className="bg-dimgrey text-yellow text-xs tracking-normal uppercase rounded-lg px-2 py-1 my-2">
             {edge.node.fields.stage}
